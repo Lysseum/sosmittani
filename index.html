@@ -21,6 +21,17 @@
             margin: 0;
             font-size: 2.5em;
         }
+        header p {
+            font-size: 1.2em;
+        }
+        .announcement {
+            background-color: #d6eaf8;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #154360;
+        }
         main {
             padding: 20px;
             max-width: 1000px;
@@ -30,8 +41,8 @@
             margin-bottom: 40px;
         }
         img {
-            width: 100%;
-            max-width: 1000px;
+            width: 80%;
+            max-width: 700px;
             margin: 20px auto;
             display: block;
             border-radius: 12px;
@@ -47,6 +58,22 @@
         a:hover {
             text-decoration: underline;
         }
+        .cta-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
         footer {
             text-align: center;
             background-color: #d4e6f1;
@@ -60,6 +87,10 @@
         <h1>Střední odborná škola Mittani, z.ú.</h1>
         <p>Moderní vzdělávání propojené s praxí</p>
     </header>
+    <div class="announcement">
+        Ekonomické lyceum plánujeme otevřít ve školním roce 2026/2027.<br>
+        <strong>Kurzy začínají již v květnu 2025 – jsme aktivní už teď!</strong>
+    </div>
     <main>
         <section>
             <p>Střední odborná škola Mittani, z.ú., je vzdělávací instituce, která plánuje zahájit svou činnost ve školním roce 2026/2027. Škola klade důraz na propojení teoretického vzdělávání s praktickými zkušenostmi a individuálním přístupem k žákům.</p>
@@ -112,8 +143,13 @@
         </section>
         <section>
             <p>Střední odborná škola Mittani, z.ú., se profiluje jako moderní vzdělávací instituce, která propojuje školu, praxi a kariéru, a nabízí širokou škálu programů a kurzů pro různé cílové skupiny.</p>
-            <p><strong>Ekonomické lyceum</strong> by mělo (pokud vše půjde s akreditací) začít v roce 2026/2027, ale <strong>kurzy začínají již v květnu 2025</strong>.</p>
         </section>
+
+        <div style="text-align:center;">
+            <a href="https://www.sosmittani.com" target="_blank" class="cta-button">
+                Více informací na www.sosmittani.com
+            </a>
+        </div>
     </main>
     <footer>
         &copy; 2025 Střední odborná škola Mittani, z.ú. | <a href="https://www.sosmittani.com">www.sosmittani.com</a>
