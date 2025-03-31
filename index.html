@@ -5,46 +5,118 @@
     <meta charset="UTF-8">
     <title>Střední odborná škola Mittani</title>
     <style>
-        body {{
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e8f1f9;
             margin: 0;
-            padding: 20px;
-        }}
-        h1 {{
+            padding: 0;
             color: #2c3e50;
-        }}
-        p {{
-            font-size: 18px;
-        }}
-        img {{
-            max-width: 100%;
-            height: auto;
-            margin: 10px 0;
-        }}
-        a {{
-            display: inline-block;
-            margin-top: 20px;
-            font-size: 20px;
-            color: white;
-            background-color: #3498db;
-            padding: 10px 15px;
+        }
+        header {
+            background: #b0d4f1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        img {
+            width: 100%;
+            max-width: 1000px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #1b4f72;
+        }
+        a {
+            color: #007acc;
             text-decoration: none;
-            border-radius: 5px;
-        }}
-        a:hover {{
-            background-color: #2980b9;
-        }}
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            background-color: #d4e6f1;
+            padding: 20px;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
-    <h1>Vítejte na stránkách o SOŠ Mittani</h1>
-    <p>Naše škola propojuje kvalitní vzdělání s praxí a moderními technologiemi. Připravujeme studenty nejen na maturitu, ale i na skutečný život.</p>
-    <img src="pexels-karolina-grabowska-8147395.jpg" alt="Studentka s globusem">
-    <img src="470211566_122147453612334376_1354095330938828618_n.jpg" alt="Fantastický lev se sluncem">
-    <img src="pexels-ivan-samkov-5676743.jpg" alt="Výuka fyziky na tabuli">
-    <img src="pexels-ivan-samkov-5676744.jpg" alt="Skupina studentů při diskuzi">
-    <img src="pexels-max-fischer-5212663.jpg" alt="Dvě dívky před tabulí plnou rovnic">
-    <a href="https://www.sosmittani.com" target="_blank">Navštivte www.sosmittani.com</a>
+    <header>
+        <h1>Střední odborná škola Mittani, z.ú.</h1>
+        <p>Moderní vzdělávání propojené s praxí</p>
+    </header>
+    <main>
+        <section>
+            <p>Střední odborná škola Mittani, z.ú., je vzdělávací instituce, která plánuje zahájit svou činnost ve školním roce 2026/2027. Škola klade důraz na propojení teoretického vzdělávání s praktickými zkušenostmi a individuálním přístupem k žákům.</p>
+        </section>
+        <img src="pexels-karolina-grabowska-8147395.jpg" alt="Studentka">
+        <section>
+            <h2>Nabízené programy:</h2>
+            <p><strong>Ekonomické lyceum (denní forma):</strong> Tento program kombinuje všeobecné vzdělání s ekonomickými předměty. Nabízí dvě specializace:</p>
+            <ul>
+                <li><strong>Sportovní hokejová třída:</strong> Určena pro studenty se zájmem o hokej, kteří chtějí skloubit sportovní kariéru se studiem.</li>
+                <li><strong>Ekonomicko-technologická třída:</strong> Zaměřena na studenty se zájmem o ekonomiku a technologie.</li>
+            </ul>
+            <p><strong>Ekonomické lyceum (dálková forma):</strong> Umožňuje studium při zaměstnání či jiných povinnostech.</p>
+        </section>
+        <img src="470211566_122147453612334376_1354095330938828618_n.jpg" alt="Logo">
+        <section>
+            <h2>Přípravné kurzy:</h2>
+            <ul>
+                <li>Přípravka na gymnázium pro 5. ročník</li>
+                <li>Přípravka na střední školu pro 8. ročník</li>
+                <li>Přípravka na střední školu pro 9. ročník</li>
+                <li>Přípravka pro sportovce v 9. ročníku</li>
+            </ul>
+        </section>
+        <img src="pexels-ivan-samkov-5676743.jpg" alt="Výuka">
+        <section>
+            <h2>Kurzy a semináře pro profesní růst:</h2>
+            <ul>
+                <li>Kurz účetnictví</li>
+                <li>Kurz mzdového účetnictví</li>
+                <li>Seminář "Exekuční srážky ze mzdy v roce 2025"</li>
+            </ul>
+        </section>
+        <img src="pexels-ivan-samkov-5676744.jpg" alt="Studenti">
+        <section>
+            <h2>Technologické kurzy:</h2>
+            <ul>
+                <li>Roboti v akci</li>
+                <li>Python je jízda</li>
+                <li>Od nápadu k modelu</li>
+                <li>AI – Tvůj studijní parťák</li>
+            </ul>
+        </section>
+        <img src="pexels-max-fischer-5212663.jpg" alt="Dívky u tabule">
+        <section>
+            <h2>Kontaktní informace:</h2>
+            <p><strong>Adresa:</strong> Žižkova 600, 664 01 Bílovice nad Svitavou<br>
+            <strong>Telefon:</strong> 773 62 33 37<br>
+            <strong>E-mail:</strong> <a href="mailto:studijni@sosmittani.cz">studijni@sosmittani.cz</a></p>
+        </section>
+        <section>
+            <p>Střední odborná škola Mittani, z.ú., se profiluje jako moderní vzdělávací instituce, která propojuje školu, praxi a kariéru, a nabízí širokou škálu programů a kurzů pro různé cílové skupiny.</p>
+            <p><strong>Ekonomické lyceum</strong> by mělo (pokud vše půjde s akreditací) začít v roce 2026/2027, ale <strong>kurzy začínají již v květnu 2025</strong>.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Střední odborná škola Mittani, z.ú. | <a href="https://www.sosmittani.com">www.sosmittani.com</a>
+    </footer>
 </body>
 </html>
